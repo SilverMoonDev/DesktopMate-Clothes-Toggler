@@ -4,7 +4,7 @@ This mod lets you toggle your clothes on and off!
 ## Installation
 - Install the latest [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.6.6/MelonLoader.Installer.exe) version to DesktopMate (v0.6.6 is the recommended one)
 - Install .NET Runtime 6.0 from [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.36-windows-x64-installer) This is for MelonLoader to Work
-- Download [Mesh Toggler.dll](https://github.com/SilverMoonDev/Desktop-Mate-Clothes-Toggler/releases/download/Stable/MeshToggler.dll) from here or Releases section on the right
+- Download [Mesh Toggler.dll](https://github.com/SilverMoonDev/DesktopMate-Clothes-Toggler/releases/download/Stable/MeshToggler.dll) from here or Releases section on the right
 - Your Browser might flag it, this is because this file is not usually downloaded, simply **Click your Downloads in the Browser and Keep the File**
 - Move the DLL to the Mods Folder **in the Desktop Mate folder**
 
