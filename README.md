@@ -1,5 +1,5 @@
 # Clothes Toggler for Desktop Mate
-This mod lets you toggle your clothes on and off!
+This mod lets you toggle your clothes on and off! **It also work with Custom Avatars**
 
 ## Preview
 ![image](https://github.com/user-attachments/assets/ba7f169c-e5a7-4ced-beda-f015f47c39cc)
