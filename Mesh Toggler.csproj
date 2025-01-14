@@ -69,4 +69,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)$(TargetName).dll" "C:\Program Files (x86)\Steam\steamapps\common\Desktop Mate\Mods" /Y</PostBuildEvent>
+  </PropertyGroup>
 </Project>

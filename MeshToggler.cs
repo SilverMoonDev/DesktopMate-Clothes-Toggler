@@ -60,7 +60,11 @@ namespace Mesh_Toggler
         {
             if (!isUIPanelVisible || meshRenderers == null || meshRenderers.Length == 0) return;
 
-            GUILayout.BeginArea(new Rect(300, 500, 220, 400), "Mesh Toggler", GUI.skin.window);
+            int numButtons = meshRenderers.Length;
+
+            float UIHeight = (numButtons * 26f) + 15f;
+
+            GUILayout.BeginArea(new Rect(300, 500, 220, UIHeight), "Mesh Toggler", GUI.skin.window);
 
             foreach (var renderer in meshRenderers)
             {
@@ -70,7 +74,7 @@ namespace Mesh_Toggler
                 GUI.skin.button.normal.textColor = buttonColor;
                 GUI.skin.button.hover.textColor = buttonColor;
 
-                if (GUILayout.Button($"Toggle {renderer.gameObject.name}"))
+                if (GUILayout.Button($"{renderer.gameObject.name}"))
                 {
                     ToggleMeshVisibility(renderer);
                 }
