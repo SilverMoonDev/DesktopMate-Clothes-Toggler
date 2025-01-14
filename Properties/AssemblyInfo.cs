@@ -5,7 +5,7 @@ using System.Runtime.InteropServices.ComTypes;
 using MelonLoader;
 using Mesh_Toggler;
 
-[assembly: MelonInfo(typeof(MeshToggler), "Mesh Toggler", "1.0", "SilverMoonDev")]
+[assembly: MelonInfo(typeof(MeshToggler), "Mesh Toggler", "1.1.0", "SilverMoonDev")]
 [assembly: MelonGame("infiniteloop", "DesktopMate")]
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
