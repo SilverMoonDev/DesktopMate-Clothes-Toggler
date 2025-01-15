@@ -18,7 +18,7 @@ It also saves the state of the avatar so you can change avatars or relaunch the 
 ## Usage
 - Initial startup of Desktop Mate will take a while as IL2CPP needs to decompile the game binary **Only on the first MelonLoader launch or after an update to the game**
 - After that, press F1
-- A Menu will open with all the clothes of the avatar that you have selected
+- A Menu will open with all the clothes of the avatar
 
 ## Notes for Development
 - Make sure you have .NET Runtime 6.0 and .NET Desktop Support installed for Visual Studio
