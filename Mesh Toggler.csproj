@@ -53,7 +53,8 @@
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Desktop Mate\MelonLoader\Il2CppAssemblies\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
-    <Reference Include="CustomAvatarLoader">
+    <Reference Include="CustomAvatarLoader, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Desktop Mate\Mods\CustomAvatarLoader.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cppcom.rlabrecque.steamworks.net">

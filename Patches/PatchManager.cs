@@ -24,7 +24,7 @@ namespace Mesh_Toggler.Patches
         {
             try
             {
-                var loadCharacterMethod = typeof(MelonLoaderMod1.Core).GetMethod("LoadCharacter", BindingFlags.Instance | BindingFlags.Public);
+                var loadCharacterMethod = typeof(CustomAvatarLoader.Modules.VrmLoaderModule).GetMethod("LoadCharacter", BindingFlags.Instance | BindingFlags.Public);
 
                 if (loadCharacterMethod != null) {
                     Instance.Patch(loadCharacterMethod, GetPatch("OnCustomAvatarLoading"), null);
