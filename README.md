@@ -1,7 +1,7 @@
 # Clothes Toggler for Desktop Mate
 This mod lets you toggle your clothes on and off! **It also works with Custom Avatars** 
 
-It also saves the state of the avatar so you can change or relaunch the app and you'll have your avatar just as you left it
+It also saves the state of the avatar so you can change avatars or relaunch the app and you'll have your avatar just as you left it
 
 ## Preview
 ![image](https://github.com/user-attachments/assets/ba7f169c-e5a7-4ced-beda-f015f47c39cc)
